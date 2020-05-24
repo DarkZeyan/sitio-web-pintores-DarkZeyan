@@ -1,0 +1,14 @@
+{
+  "name": "sitio-web-pintores-darkzeyan",
+  "version": "1.0.0",
+  "description": "Sitio web estatico acerca de pintores hecha con NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Eduardo Escobar Bugarini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
