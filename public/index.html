@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Página Principal</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul class="centrar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#pintores">Pintores Favoritos</a></li>
+                <li><a href="datos.html">Datos del Alumno</a></li>
+            </ul>
+        </nav>
+        <section class="site-banner">
+            <h1 class="alineacion centrar">Pintores Favoritos</h1>
+        </section>
+    </header>
+    <main class="margen">
+        <p>El arte es uno de los principales medios de expresión del ser humano desde que la libertad de expresión es
+            posible. Pues es a través de las pinturas de los artistas y pintores que se demuestra las ideas y momentos
+            por los que pasó una persona en su vida.</p>
+        <p>Mis pintores favoritos son los siguientes pues considero que son los que pudieron hacer aportes culturales a
+            la humanidad.</p>
+        <a name="pintores"></a>
+        <section class="pintores">
+            <div class="pintor">
+                <a href="davinci.html">
+                <img src="images/pintor1.jpg" alt="Da Vinci">
+                <h4>Leonardo Da Vinci</h4>
+            </a>
+            </div>
+            <div class="pintor">
+                <a href="velazquez.html">
+                <img src="images/pintor2.jpg" alt="Velazquez">
+                <h4 class="cTexto">Diego Velazquez</h4>
+            </a>
+            </div>
+            <div class="pintor">
+                <a href="picasso.html">
+                <img src="images/pintor3.jpg" alt="Picasso">
+                <h4 class="cTexto">Pablo Picasso</h4>
+            </a>
+            </div>
+            <div class="pintor">
+                <a href="vangogh.html">
+                <img src="images/pintor4.jpg" alt="van Gogh">
+                <h4 class="cTexto">Vincent van Gogh</h4>
+            </a>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>
